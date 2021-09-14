@@ -1,3 +1,10 @@
+# Intermediate data
+data/portfolio_clean.csv
+data/profile_clean.csv
+data/transcript_clean.csv
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
