@@ -42,9 +42,12 @@ def clean_portfolio(df, channel_types=['web', 'email', 'mobile', 'social']):
                           df[['offer_type', 'duration', 'difficulty', 'reward']]],
                          axis=1)
 
-    # Rename id as campaign_id
-    clean_df = clean_df.rename(columns={'id': 'offer_id'})
-
+    # Rename id as offer_id
+    clean_df = clean_df.rename(columns={'id':'offer_id'})
+    
+    # Convert duration in days to hours
+    clean_df['duration'] = (clean_df['duration'] * 24).astype('int')
+    
     return clean_df
 
 
