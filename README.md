@@ -5,7 +5,7 @@ Starbucks is a well-known coffee company operating ~32,000 stores with net reven
 
 As part of the Udacity Data Scientist Nanodegree, a simulated dataset of 17000 rewards program customers was provided. This dataset contains customer transactions over a period of around one month, including when these customers received, viewed, and completed reward offers.
 
-I performed basic data cleaning, exploratory data analysis, and built models to predict customer response to reward offers in three separate Jupyter notebooks. A full description is available as a blogpost [here](https://medium.com/@aKOwong/94e4d82e0e5b).
+I performed basic data cleaning, exploratory data analysis, and built models to predict customer response to reward offers in three separate Jupyter notebooks. A full description is available as a blogpost [here](https://mixedconclusions.com/blog/dsnd_starbucks/).
 
 
 ## Instructions
